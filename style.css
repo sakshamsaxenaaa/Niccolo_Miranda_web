@@ -11,8 +11,8 @@
   
 }
 html,body{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main{
@@ -20,23 +20,23 @@ html,body{
     overflow-x: hidden;
 }
 #page1{
-    height:100vh;
-    width: 100%;
+    height: 80vh;
+    width: 100vw;
     background-color: #C3BBB2;
     position: relative ;
     overflow-x: hidden;
 }
 #page2{
 height: 150vh;
-width: 100%;
+width: 90vw;
 background-color: #B73C12 ;
 position:relative;
 
 }
 #nav{
-    height: 100px;
+    height: 10vh;
     
-    width: 100%;
+    width: 99vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,7 +61,7 @@ position:relative;
 
 #elems{
    
-    height: 430px;
+    height: 68vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,9 +77,9 @@ position:relative;
     width: 35%;
     height: 100%;
    
-    border-right : 1px solid #575757;
-    border-left :   1px solid #575757;
-    padding: 20px 60px;
+    border-right : 0.1vh solid #575757;
+    border-left :   0.1vh solid #575757;
+    padding: 2.5vh 7.5vh;
     text-align: center;
 }
 #elem3{
@@ -111,107 +111,110 @@ position:relative;
 } 
 
 #elem1 h4{
-    font-size: 24px;
-    margin-top: 20px  ;
-    margin-bottom: 20px;
+    font-size: 3.8vh;
+    margin-top: 2.5vh  ;
+    margin-bottom: 2.5vh;
     font-family: canopee;
-    font-weight: 1px;
+    
 }
 #elem1 h4 span{
     background-color: #B73C12;
     color:#c4bcb3;
     font-weight: 100;
     font-size: 20;
-    padding:2px;
-    border-radius: 4px;
+    padding:0.2vh;
+    border-radius: 0.8vh;
 }
 #elem1 p{
    color: #312f2f;
    font-family: domain;
+   font-size: 2.6vh;
     
 }
 #elem3 h4{
-    font-size: 24px;
-    margin-top: 20px  ;
-    margin-bottom: 20px;
+    font-size: 3.8vh;
+    margin-top: 2.5vh  ;
+    margin-bottom: 2.5vh;
     font-family: canopee;
-    font-weight: 1px;
+    
 }
 #elem3 h4 span{
     background-color: #B73C12;
     color:#c4bcb3;
     font-weight: 100;
     font-size: 20;
-    padding:2px;
-    border-radius: 4px;
+    padding:0.2vh;
+    border-radius: 0.8vh;
 }
 #elem3 p{
    color: #312f2f;
    font-family: domain;
+   font-size: 2.4vh;
     
 }
 
 #elem2 h2 {
 
     font-family: canopee ;
-font-size: 70px;
-font-weight: 100 ;
+font-size: 9vh;
+font-weight: 20vh;
+object-fit: cover;
 
 }
-#elem2 h3 {
+#elem2 p {
 
     font-family: domain;
-font-size: 40px;
-font-weight : 115;
-color: #333331;
-margin: 20px 0px;
+font-size: 7.6vh;
+font-weight : 60;
+color: #20201f;
+margin: 1.5vh ;
 }
 #elem2 h6 {
 
     font-family: domain;
-font-size: 20px;
+font-size: 2.8vh;
 font-weight : 115;
 color: #333331;
 }
 #page1 h1{
-    font-size: 470px;
-    letter-spacing: -10%;
-    font-weight: 100;
+    font-size: 72vh;
+    letter-spacing: -0.8vh;
+    font-weight: 7vh;
     font-family: canopee ;
     object-fit: cover;
     background-color: #1C1B19;
 color: #c4bcb3;
-line-height: 600px;
+line-height: 76vh;
 margin: 1%;
 }
 
 #page2 {
     height: 150vh;
-    width: 100%;
+    width: 100vw;
     background-color: #C4BCB3;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 90px 40px;
+    padding: 9vh 6vh;
 }
 
 #page2-left {
-    height: 100%;
-    padding-right: 50px;
-    width: 35%;
+    height: 100vh;
+    padding-right: 6vh;
+    width: 45vw;
     /* background-color: red; */
-    border-right: 1px solid #4b4b4b;
+    border-right: 0.6vh solid #4b4b4b;
 }
 
 #page2-left h2 {
-    font-size: 100px;
+    font-size: 8vh;
     font-family: canopee;
-    line-height: 150px;
+    line-height: 19vh;
     font-weight: 100;
 }
 
 #page2-left h2 span {
-    font-size: 190px;
+    font-size: 19vh;
     font-weight: 900;
 }
 
@@ -222,16 +225,16 @@ margin: 1%;
 }
 
 #page2-left p {
-    font-size: 34px;
+    font-size: 6vh;
     font-family: domain;
     color: #2f2f2f;
-    margin-top: 20px;
+    margin-top: 1vh;
 }
 
 #page2-right {
     height: 100%;
     width: 70%;
-    padding: 0 60px;
+    padding: 0 8vh;
 }
 
 #page2-right img {
@@ -242,43 +245,44 @@ margin: 1%;
 
 #page2-right h1 {
     font-family: canopee;
-    font-size: 90px;
+    font-size: 13.5vh;
     font-weight: 100;
     letter-spacing: -1px;
 }
 
 #page3 {
-    padding-bottom: 100px;
+    padding-bottom: 10vh;
     position: relative;
     background-color: #C4BCB3;
 }
 
 #page3 h1 {
-    font-size: 400px;
+    font-size: 60vh;
     font-weight: 100;
     letter-spacing: -10px;
     background-color: #1C1C19;
     width: fit-content;
     color: #C4BCB3;
     margin-left: 1%;
-    padding: 5px 20px;
-    line-height: 400px;
+    padding: 3vh 3vh;
+    line-height: 60vh;
     font-family: canopee;
     width: fit-content;
    
 }
 
 #page3 img {
-    height: 450px;
+    height: 70vh;
+    width: 26vw;
     position: absolute;
     top: 0;
-    right: -3%;
+    right: -1%;
 
 }
 
 #page4 {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -288,36 +292,36 @@ margin: 1%;
 #page4-left {
     width: 65%;
     height: 100%;
-    padding: 80px 60px;
+    padding: 10vh 12vh;
 }
 
 #page4-left img {
-    height: 100%;
-    width: 100%;
+    height: 80vh;
+    width: 60vw;
     object-fit: cover;
 }
 
 #page4-right {
     width: 35%;
     height: 100%;
-    padding: 80px 60px;
+    padding: 7.5vh 5vh;
 }
 
 #page4-right p {
-    font-size: 34px;
+    font-size: 5.6vh;
     font-family: domain;
     font-weight: 100;
     color: #2f2f2f;
-    margin-bottom: 150px;
+    margin-bottom: 6vh;
     line-height: 35px;
 }
 
 #page4-right #anda {
-    height: 260px;
+    height: 45%;
     background-color: #CAC1B6;
     border: 1px solid #2f2f2fc6;
     border-radius: 50%;
-    width: 100%;
+    width: 115%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +330,7 @@ margin: 1%;
 }
 
 #anda h1 {
-    font-size: 100px;
+    font-size: 8vh;
     font-weight: 100;
     font-family: canopee;
     width: 100%;
@@ -340,7 +344,7 @@ margin: 1%;
 }
 
 #anda img {
-    height: 60px;
+    height: 7.5vh;
     transition: all ease 0.6s;
 
     transform: translateX(-120%);
@@ -356,9 +360,9 @@ margin: 1%;
 
 }
 
-
-#page5 {
-    padding: 25px 0;
+#page5
+{
+    padding: 1vh 0;
     width: 100%;
     background-color: #C4BCB3;
     border-top: 1px solid #2f2f2f;
@@ -374,28 +378,32 @@ margin: 1%;
 }
 
 #page5 h1 {
-    font-size: 100px;
+    font-size: 10vh;
     font-family: domain;
     font-weight: 100;
     display: inline-block;
     /* background-color: red; */
     animation-timing-function: linear;
-    margin-right: 30px;
+    margin-right: 2.5vh;
     animation-name: scroll;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+#page5 a{
 
-#page5 h1 span {
+color:#C4BCB3 ;
+background-color: #1b1b1b;
+}
+#page5 a span {
     font-family: canopee;
     background-color: #1b1b1b;
     color: #C4BCB3;
-    padding: 0 12px;
+    padding: 0 1vh;
 }
 
 #page6 {
-    height: 100px;
-    width: 100%;
+    height: 30vh;
+    width: 100vw;
     background-color: #C4BCB3;
     
 }
@@ -404,7 +412,7 @@ margin: 1%;
  font-size: 30px;
 }
 #page6>a> button{
-font-size: 32px;
+font-size: 5vh;
     border-radius: 52%;
     font-family: domain;
 }
